@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Road_Name": "Shakti Main Avenue Line 1",
+        "Width_m": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.499,
+              25.0024
+            ],
+            [
+              82.512,
+              25.0024
+            ],
+            [
+              82.512,
+              25.0026
+            ],
+            [
+              82.499,
+              25.0026
+            ],
+            [
+              82.499,
+              25.0024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Road_Name": "Shakti Main Avenue Line 2",
+        "Width_m": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.499,
+              25.0074
+            ],
+            [
+              82.512,
+              25.0074
+            ],
+            [
+              82.512,
+              25.0076
+            ],
+            [
+              82.499,
+              25.0076
+            ],
+            [
+              82.499,
+              25.0074
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

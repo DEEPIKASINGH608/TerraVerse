@@ -1,0 +1,3605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-101",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.0
+            ],
+            [
+              82.50092891932293,
+              25.0
+            ],
+            [
+              82.50095,
+              25.00095
+            ],
+            [
+              82.5,
+              25.00093854992197
+            ],
+            [
+              82.5,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-102",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.001
+            ],
+            [
+              82.50092391805741,
+              25.001
+            ],
+            [
+              82.50095,
+              25.00195
+            ],
+            [
+              82.5,
+              25.001956535298852
+            ],
+            [
+              82.5,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-103",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.002
+            ],
+            [
+              82.50092724360815,
+              25.002
+            ],
+            [
+              82.50095,
+              25.00295
+            ],
+            [
+              82.5,
+              25.002943656464826
+            ],
+            [
+              82.5,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-104",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.003
+            ],
+            [
+              82.50095480823386,
+              25.003
+            ],
+            [
+              82.50095,
+              25.00395
+            ],
+            [
+              82.5,
+              25.00390375012311
+            ],
+            [
+              82.5,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-105",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.004
+            ],
+            [
+              82.50094663507095,
+              25.004
+            ],
+            [
+              82.50095,
+              25.00495
+            ],
+            [
+              82.5,
+              25.004942884386455
+            ],
+            [
+              82.5,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-106",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.005
+            ],
+            [
+              82.50094183998269,
+              25.005
+            ],
+            [
+              82.50095,
+              25.00595
+            ],
+            [
+              82.5,
+              25.0059610188052
+            ],
+            [
+              82.5,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-107",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.006
+            ],
+            [
+              82.50097135444494,
+              25.006
+            ],
+            [
+              82.50095,
+              25.00695
+            ],
+            [
+              82.5,
+              25.00698920324981
+            ],
+            [
+              82.5,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-108",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.007
+            ],
+            [
+              82.50098167789952,
+              25.007
+            ],
+            [
+              82.50095,
+              25.00795
+            ],
+            [
+              82.5,
+              25.007947903944345
+            ],
+            [
+              82.5,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-109",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.008
+            ],
+            [
+              82.5009647969416,
+              25.008
+            ],
+            [
+              82.50095,
+              25.00895
+            ],
+            [
+              82.5,
+              25.008941099380568
+            ],
+            [
+              82.5,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-110",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              25.009
+            ],
+            [
+              82.5009896886981,
+              25.009
+            ],
+            [
+              82.50095,
+              25.00995
+            ],
+            [
+              82.5,
+              25.009964028693915
+            ],
+            [
+              82.5,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-111",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.0
+            ],
+            [
+              82.50198825618165,
+              25.0
+            ],
+            [
+              82.50195000000001,
+              25.00095
+            ],
+            [
+              82.501,
+              25.00093633408584
+            ],
+            [
+              82.501,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-112",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.001
+            ],
+            [
+              82.50197005071936,
+              25.001
+            ],
+            [
+              82.50195000000001,
+              25.00195
+            ],
+            [
+              82.501,
+              25.001912248218552
+            ],
+            [
+              82.501,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-113",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.002
+            ],
+            [
+              82.5019941984533,
+              25.002
+            ],
+            [
+              82.50195000000001,
+              25.00295
+            ],
+            [
+              82.501,
+              25.002969929840912
+            ],
+            [
+              82.501,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-114",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.003
+            ],
+            [
+              82.5019910307439,
+              25.003
+            ],
+            [
+              82.50195000000001,
+              25.00395
+            ],
+            [
+              82.501,
+              25.003979516467812
+            ],
+            [
+              82.501,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-115",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.004
+            ],
+            [
+              82.50191268022483,
+              25.004
+            ],
+            [
+              82.50195000000001,
+              25.00495
+            ],
+            [
+              82.501,
+              25.00498792740181
+            ],
+            [
+              82.501,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-116",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.005
+            ],
+            [
+              82.50190750501271,
+              25.005
+            ],
+            [
+              82.50195000000001,
+              25.00595
+            ],
+            [
+              82.501,
+              25.0059246871698
+            ],
+            [
+              82.501,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-117",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.006
+            ],
+            [
+              82.50195061745177,
+              25.006
+            ],
+            [
+              82.50195000000001,
+              25.00695
+            ],
+            [
+              82.501,
+              25.00699908446952
+            ],
+            [
+              82.501,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-118",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.007
+            ],
+            [
+              82.50199834643917,
+              25.007
+            ],
+            [
+              82.50195000000001,
+              25.00795
+            ],
+            [
+              82.501,
+              25.007988470305712
+            ],
+            [
+              82.501,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-119",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.008
+            ],
+            [
+              82.50193192132001,
+              25.008
+            ],
+            [
+              82.50195000000001,
+              25.00895
+            ],
+            [
+              82.501,
+              25.00891050186687
+            ],
+            [
+              82.501,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-120",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.501,
+              25.009
+            ],
+            [
+              82.50190527551501,
+              25.009
+            ],
+            [
+              82.50195000000001,
+              25.00995
+            ],
+            [
+              82.501,
+              25.009959661629836
+            ],
+            [
+              82.501,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-121",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.0
+            ],
+            [
+              82.50297375487052,
+              25.0
+            ],
+            [
+              82.50295,
+              25.00095
+            ],
+            [
+              82.502,
+              25.00093412437114
+            ],
+            [
+              82.502,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-122",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.001
+            ],
+            [
+              82.50291840290927,
+              25.001
+            ],
+            [
+              82.50295,
+              25.00195
+            ],
+            [
+              82.502,
+              25.001912917253808
+            ],
+            [
+              82.502,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-123",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.002
+            ],
+            [
+              82.50296193362479,
+              25.002
+            ],
+            [
+              82.50295,
+              25.00295
+            ],
+            [
+              82.502,
+              25.002932305335275
+            ],
+            [
+              82.502,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-124",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.003
+            ],
+            [
+              82.50299612585279,
+              25.003
+            ],
+            [
+              82.50295,
+              25.00395
+            ],
+            [
+              82.502,
+              25.00399930809792
+            ],
+            [
+              82.502,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-125",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.004
+            ],
+            [
+              82.50290155007185,
+              25.004
+            ],
+            [
+              82.50295,
+              25.00495
+            ],
+            [
+              82.502,
+              25.00498606578318
+            ],
+            [
+              82.502,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-126",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.005
+            ],
+            [
+              82.50291252201764,
+              25.005
+            ],
+            [
+              82.50295,
+              25.00595
+            ],
+            [
+              82.502,
+              25.005972162081715
+            ],
+            [
+              82.502,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-127",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.006
+            ],
+            [
+              82.50292819755055,
+              25.006
+            ],
+            [
+              82.50295,
+              25.00695
+            ],
+            [
+              82.502,
+              25.0069028362856
+            ],
+            [
+              82.502,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-128",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.007
+            ],
+            [
+              82.50293649665446,
+              25.007
+            ],
+            [
+              82.50295,
+              25.00795
+            ],
+            [
+              82.502,
+              25.007958327776663
+            ],
+            [
+              82.502,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-129",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.008
+            ],
+            [
+              82.50296125876318,
+              25.008
+            ],
+            [
+              82.50295,
+              25.00895
+            ],
+            [
+              82.502,
+              25.008979143600417
+            ],
+            [
+              82.502,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-130",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.502,
+              25.009
+            ],
+            [
+              82.50295591913856,
+              25.009
+            ],
+            [
+              82.50295,
+              25.00995
+            ],
+            [
+              82.502,
+              25.00991720232913
+            ],
+            [
+              82.502,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-131",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.0
+            ],
+            [
+              82.50391553445648,
+              25.0
+            ],
+            [
+              82.50395,
+              25.00095
+            ],
+            [
+              82.503,
+              25.00094317359875
+            ],
+            [
+              82.503,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-132",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.001
+            ],
+            [
+              82.50391173582518,
+              25.001
+            ],
+            [
+              82.50395,
+              25.00195
+            ],
+            [
+              82.503,
+              25.00198192742146
+            ],
+            [
+              82.503,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-133",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.002
+            ],
+            [
+              82.5039507247812,
+              25.002
+            ],
+            [
+              82.50395,
+              25.00295
+            ],
+            [
+              82.503,
+              25.002991150388393
+            ],
+            [
+              82.503,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-134",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.003
+            ],
+            [
+              82.50399274921689,
+              25.003
+            ],
+            [
+              82.50395,
+              25.00395
+            ],
+            [
+              82.503,
+              25.003965163112014
+            ],
+            [
+              82.503,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-135",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.004
+            ],
+            [
+              82.50397630882807,
+              25.004
+            ],
+            [
+              82.50395,
+              25.00495
+            ],
+            [
+              82.503,
+              25.004975771974795
+            ],
+            [
+              82.503,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-136",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.005
+            ],
+            [
+              82.5039497265888,
+              25.005
+            ],
+            [
+              82.50395,
+              25.00595
+            ],
+            [
+              82.503,
+              25.00591064231013
+            ],
+            [
+              82.503,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-137",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.006
+            ],
+            [
+              82.5039247543764,
+              25.006
+            ],
+            [
+              82.50395,
+              25.00695
+            ],
+            [
+              82.503,
+              25.0069739428693
+            ],
+            [
+              82.503,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-138",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.007
+            ],
+            [
+              82.50390154874154,
+              25.007
+            ],
+            [
+              82.50395,
+              25.00795
+            ],
+            [
+              82.503,
+              25.007982761929203
+            ],
+            [
+              82.503,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-139",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.008
+            ],
+            [
+              82.50397280031089,
+              25.008
+            ],
+            [
+              82.50395,
+              25.00895
+            ],
+            [
+              82.503,
+              25.008923665456276
+            ],
+            [
+              82.503,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-140",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.503,
+              25.009
+            ],
+            [
+              82.50390627813063,
+              25.009
+            ],
+            [
+              82.50395,
+              25.00995
+            ],
+            [
+              82.503,
+              25.009947458274265
+            ],
+            [
+              82.503,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-141",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.0
+            ],
+            [
+              82.50496950541182,
+              25.0
+            ],
+            [
+              82.50495000000001,
+              25.00095
+            ],
+            [
+              82.504,
+              25.00096910130144
+            ],
+            [
+              82.504,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-142",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.001
+            ],
+            [
+              82.50495105142986,
+              25.001
+            ],
+            [
+              82.50495000000001,
+              25.00195
+            ],
+            [
+              82.504,
+              25.001991007484392
+            ],
+            [
+              82.504,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-143",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.002
+            ],
+            [
+              82.50494513004341,
+              25.002
+            ],
+            [
+              82.50495000000001,
+              25.00295
+            ],
+            [
+              82.504,
+              25.002996292201328
+            ],
+            [
+              82.504,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-144",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.003
+            ],
+            [
+              82.50491326528943,
+              25.003
+            ],
+            [
+              82.50495000000001,
+              25.00395
+            ],
+            [
+              82.504,
+              25.00398177880472
+            ],
+            [
+              82.504,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-145",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.004
+            ],
+            [
+              82.50497592269325,
+              25.004
+            ],
+            [
+              82.50495000000001,
+              25.00495
+            ],
+            [
+              82.504,
+              25.004984610331746
+            ],
+            [
+              82.504,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-146",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.005
+            ],
+            [
+              82.50497840406503,
+              25.005
+            ],
+            [
+              82.50495000000001,
+              25.00595
+            ],
+            [
+              82.504,
+              25.00597311409218
+            ],
+            [
+              82.504,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-147",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.006
+            ],
+            [
+              82.50493399423732,
+              25.006
+            ],
+            [
+              82.50495000000001,
+              25.00695
+            ],
+            [
+              82.504,
+              25.00691650880302
+            ],
+            [
+              82.504,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-148",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.007
+            ],
+            [
+              82.50494398676364,
+              25.007
+            ],
+            [
+              82.50495000000001,
+              25.00795
+            ],
+            [
+              82.504,
+              25.007985787604373
+            ],
+            [
+              82.504,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-149",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.008
+            ],
+            [
+              82.50494060158815,
+              25.008
+            ],
+            [
+              82.50495000000001,
+              25.00895
+            ],
+            [
+              82.504,
+              25.008931336203492
+            ],
+            [
+              82.504,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-150",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.504,
+              25.009
+            ],
+            [
+              82.50490873856187,
+              25.009
+            ],
+            [
+              82.50495000000001,
+              25.00995
+            ],
+            [
+              82.504,
+              25.00995415167214
+            ],
+            [
+              82.504,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-151",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.0
+            ],
+            [
+              82.50593283040482,
+              25.0
+            ],
+            [
+              82.50595,
+              25.00095
+            ],
+            [
+              82.505,
+              25.000912379581074
+            ],
+            [
+              82.505,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-152",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.001
+            ],
+            [
+              82.50593284865231,
+              25.001
+            ],
+            [
+              82.50595,
+              25.00195
+            ],
+            [
+              82.505,
+              25.001946629065365
+            ],
+            [
+              82.505,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-153",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.002
+            ],
+            [
+              82.50597784272728,
+              25.002
+            ],
+            [
+              82.50595,
+              25.00295
+            ],
+            [
+              82.505,
+              25.002967195597574
+            ],
+            [
+              82.505,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-154",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.003
+            ],
+            [
+              82.50593327829793,
+              25.003
+            ],
+            [
+              82.50595,
+              25.00395
+            ],
+            [
+              82.505,
+              25.003991125263553
+            ],
+            [
+              82.505,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-155",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.004
+            ],
+            [
+              82.50590034890041,
+              25.004
+            ],
+            [
+              82.50595,
+              25.00495
+            ],
+            [
+              82.505,
+              25.00496383931777
+            ],
+            [
+              82.505,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-156",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.005
+            ],
+            [
+              82.50595745387574,
+              25.005
+            ],
+            [
+              82.50595,
+              25.00595
+            ],
+            [
+              82.505,
+              25.005937262999986
+            ],
+            [
+              82.505,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-157",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.006
+            ],
+            [
+              82.50595578631817,
+              25.006
+            ],
+            [
+              82.50595,
+              25.00695
+            ],
+            [
+              82.505,
+              25.00695245666885
+            ],
+            [
+              82.505,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-158",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.007
+            ],
+            [
+              82.50598005422735,
+              25.007
+            ],
+            [
+              82.50595,
+              25.00795
+            ],
+            [
+              82.505,
+              25.00796369842222
+            ],
+            [
+              82.505,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-159",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.008
+            ],
+            [
+              82.5059521116472,
+              25.008
+            ],
+            [
+              82.50595,
+              25.00895
+            ],
+            [
+              82.505,
+              25.00894291440536
+            ],
+            [
+              82.505,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-160",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.505,
+              25.009
+            ],
+            [
+              82.50598763917613,
+              25.009
+            ],
+            [
+              82.50595,
+              25.00995
+            ],
+            [
+              82.505,
+              25.009987877983313
+            ],
+            [
+              82.505,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-161",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.0
+            ],
+            [
+              82.50697172233141,
+              25.0
+            ],
+            [
+              82.50695,
+              25.00095
+            ],
+            [
+              82.506,
+              25.000986049272512
+            ],
+            [
+              82.506,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-162",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.001
+            ],
+            [
+              82.50690477696595,
+              25.001
+            ],
+            [
+              82.50695,
+              25.00195
+            ],
+            [
+              82.506,
+              25.001970185083316
+            ],
+            [
+              82.506,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-163",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.002
+            ],
+            [
+              82.50696440133531,
+              25.002
+            ],
+            [
+              82.50695,
+              25.00295
+            ],
+            [
+              82.506,
+              25.00294252586887
+            ],
+            [
+              82.506,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-164",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.003
+            ],
+            [
+              82.50697794083916,
+              25.003
+            ],
+            [
+              82.50695,
+              25.00395
+            ],
+            [
+              82.506,
+              25.00390875751948
+            ],
+            [
+              82.506,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-165",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.004
+            ],
+            [
+              82.50695420632027,
+              25.004
+            ],
+            [
+              82.50695,
+              25.00495
+            ],
+            [
+              82.506,
+              25.004944544789197
+            ],
+            [
+              82.506,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-166",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.005
+            ],
+            [
+              82.5069434676682,
+              25.005
+            ],
+            [
+              82.50695,
+              25.00595
+            ],
+            [
+              82.506,
+              25.00592799143646
+            ],
+            [
+              82.506,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-167",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.006
+            ],
+            [
+              82.50695405210315,
+              25.006
+            ],
+            [
+              82.50695,
+              25.00695
+            ],
+            [
+              82.506,
+              25.006960208847982
+            ],
+            [
+              82.506,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-168",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.007
+            ],
+            [
+              82.50692579758463,
+              25.007
+            ],
+            [
+              82.50695,
+              25.00795
+            ],
+            [
+              82.506,
+              25.00796909837796
+            ],
+            [
+              82.506,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-169",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.008
+            ],
+            [
+              82.50692092408984,
+              25.008
+            ],
+            [
+              82.50695,
+              25.00895
+            ],
+            [
+              82.506,
+              25.008913066870708
+            ],
+            [
+              82.506,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-170",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.506,
+              25.009
+            ],
+            [
+              82.50694635351687,
+              25.009
+            ],
+            [
+              82.50695,
+              25.00995
+            ],
+            [
+              82.506,
+              25.009970650521183
+            ],
+            [
+              82.506,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-171",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.0
+            ],
+            [
+              82.50793664281039,
+              25.0
+            ],
+            [
+              82.50795000000001,
+              25.00095
+            ],
+            [
+              82.507,
+              25.00099652764138
+            ],
+            [
+              82.507,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-172",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.001
+            ],
+            [
+              82.50795467990723,
+              25.001
+            ],
+            [
+              82.50795000000001,
+              25.00195
+            ],
+            [
+              82.507,
+              25.001915281117864
+            ],
+            [
+              82.507,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-173",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.002
+            ],
+            [
+              82.5079563212424,
+              25.002
+            ],
+            [
+              82.50795000000001,
+              25.00295
+            ],
+            [
+              82.507,
+              25.002990955190484
+            ],
+            [
+              82.507,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-174",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.003
+            ],
+            [
+              82.50792110745533,
+              25.003
+            ],
+            [
+              82.50795000000001,
+              25.00395
+            ],
+            [
+              82.507,
+              25.00392712122945
+            ],
+            [
+              82.507,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-175",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.004
+            ],
+            [
+              82.50792458368652,
+              25.004
+            ],
+            [
+              82.50795000000001,
+              25.00495
+            ],
+            [
+              82.507,
+              25.004985893428138
+            ],
+            [
+              82.507,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-176",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.005
+            ],
+            [
+              82.50792113150948,
+              25.005
+            ],
+            [
+              82.50795000000001,
+              25.00595
+            ],
+            [
+              82.507,
+              25.005941909544426
+            ],
+            [
+              82.507,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-177",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.006
+            ],
+            [
+              82.50795444037968,
+              25.006
+            ],
+            [
+              82.50795000000001,
+              25.00695
+            ],
+            [
+              82.507,
+              25.006921329978578
+            ],
+            [
+              82.507,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-178",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.007
+            ],
+            [
+              82.5079174461773,
+              25.007
+            ],
+            [
+              82.50795000000001,
+              25.00795
+            ],
+            [
+              82.507,
+              25.00790566904995
+            ],
+            [
+              82.507,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-179",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.008
+            ],
+            [
+              82.50791858143596,
+              25.008
+            ],
+            [
+              82.50795000000001,
+              25.00895
+            ],
+            [
+              82.507,
+              25.008967377134038
+            ],
+            [
+              82.507,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-180",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.507,
+              25.009
+            ],
+            [
+              82.50794419961605,
+              25.009
+            ],
+            [
+              82.50795000000001,
+              25.00995
+            ],
+            [
+              82.507,
+              25.009935609923517
+            ],
+            [
+              82.507,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-181",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.0
+            ],
+            [
+              82.50898628435586,
+              25.0
+            ],
+            [
+              82.50895,
+              25.00095
+            ],
+            [
+              82.508,
+              25.00090191847329
+            ],
+            [
+              82.508,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-182",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.001
+            ],
+            [
+              82.50891856799205,
+              25.001
+            ],
+            [
+              82.50895,
+              25.00195
+            ],
+            [
+              82.508,
+              25.001985918395935
+            ],
+            [
+              82.508,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-183",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.002
+            ],
+            [
+              82.50892493107581,
+              25.002
+            ],
+            [
+              82.50895,
+              25.00295
+            ],
+            [
+              82.508,
+              25.002928347091814
+            ],
+            [
+              82.508,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-184",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.003
+            ],
+            [
+              82.50890080813696,
+              25.003
+            ],
+            [
+              82.50895,
+              25.00395
+            ],
+            [
+              82.508,
+              25.003991118638666
+            ],
+            [
+              82.508,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-185",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.004
+            ],
+            [
+              82.50894775246763,
+              25.004
+            ],
+            [
+              82.50895,
+              25.00495
+            ],
+            [
+              82.508,
+              25.00498143076524
+            ],
+            [
+              82.508,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-186",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.005
+            ],
+            [
+              82.508959993405,
+              25.005
+            ],
+            [
+              82.50895,
+              25.00595
+            ],
+            [
+              82.508,
+              25.005982104962964
+            ],
+            [
+              82.508,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-187",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.006
+            ],
+            [
+              82.50894049845276,
+              25.006
+            ],
+            [
+              82.50895,
+              25.00695
+            ],
+            [
+              82.508,
+              25.006952847182863
+            ],
+            [
+              82.508,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-188",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.007
+            ],
+            [
+              82.50890177424749,
+              25.007
+            ],
+            [
+              82.50895,
+              25.00795
+            ],
+            [
+              82.508,
+              25.00791002425974
+            ],
+            [
+              82.508,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-189",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.008
+            ],
+            [
+              82.50897430564702,
+              25.008
+            ],
+            [
+              82.50895,
+              25.00895
+            ],
+            [
+              82.508,
+              25.008952652975864
+            ],
+            [
+              82.508,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-190",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.508,
+              25.009
+            ],
+            [
+              82.50893246516746,
+              25.009
+            ],
+            [
+              82.50895,
+              25.00995
+            ],
+            [
+              82.508,
+              25.00997820180007
+            ],
+            [
+              82.508,
+              25.009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-191",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.0
+            ],
+            [
+              82.50994580706197,
+              25.0
+            ],
+            [
+              82.50995,
+              25.00095
+            ],
+            [
+              82.509,
+              25.00091933027159
+            ],
+            [
+              82.509,
+              25.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-192",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.001
+            ],
+            [
+              82.50994339156736,
+              25.001
+            ],
+            [
+              82.50995,
+              25.00195
+            ],
+            [
+              82.509,
+              25.00197521557073
+            ],
+            [
+              82.509,
+              25.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-193",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.002
+            ],
+            [
+              82.50997706271666,
+              25.002
+            ],
+            [
+              82.50995,
+              25.00295
+            ],
+            [
+              82.509,
+              25.002960014851215
+            ],
+            [
+              82.509,
+              25.002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-194",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.003
+            ],
+            [
+              82.50994101545727,
+              25.003
+            ],
+            [
+              82.50995,
+              25.00395
+            ],
+            [
+              82.509,
+              25.003933847003065
+            ],
+            [
+              82.509,
+              25.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-195",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 1,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.004
+            ],
+            [
+              82.50994360492354,
+              25.004
+            ],
+            [
+              82.50995,
+              25.00495
+            ],
+            [
+              82.509,
+              25.004966054160697
+            ],
+            [
+              82.509,
+              25.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-196",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.005
+            ],
+            [
+              82.5099246435712,
+              25.005
+            ],
+            [
+              82.50995,
+              25.00595
+            ],
+            [
+              82.509,
+              25.005925809070316
+            ],
+            [
+              82.509,
+              25.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-197",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.006
+            ],
+            [
+              82.5099492913831,
+              25.006
+            ],
+            [
+              82.50995,
+              25.00695
+            ],
+            [
+              82.509,
+              25.00698491049047
+            ],
+            [
+              82.509,
+              25.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-198",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 3,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.007
+            ],
+            [
+              82.50996747996116,
+              25.007
+            ],
+            [
+              82.50995,
+              25.00795
+            ],
+            [
+              82.509,
+              25.007963797188186
+            ],
+            [
+              82.509,
+              25.007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-199",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 4,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.008
+            ],
+            [
+              82.50994248080171,
+              25.008
+            ],
+            [
+              82.50995,
+              25.00895
+            ],
+            [
+              82.509,
+              25.008986423386514
+            ],
+            [
+              82.509,
+              25.008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Drone_Feature_ID": "DRONE-2026-200",
+        "Confidence_Score": 0.98,
+        "Extracted_Buildings": 2,
+        "Capture_Date": "2026-03-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.509,
+              25.009
+            ],
+            [
+              82.50998235283619,
+              25.009
+            ],
+            [
+              82.50995,
+              25.00995
+            ],
+            [
+              82.509,
+              25.00999971298851
+            ],
+            [
+              82.509,
+              25.009
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

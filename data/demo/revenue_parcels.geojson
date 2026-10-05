@@ -1,0 +1,3711 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "101",
+        "Owner_Name": "Owner_101",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.87,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              24.99998
+            ],
+            [
+              82.50095891932293,
+              24.99998
+            ],
+            [
+              82.50098,
+              25.00093
+            ],
+            [
+              82.50003,
+              25.00091854992197
+            ],
+            [
+              82.50003,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "102",
+        "Owner_Name": "Owner_102",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.93,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.000980000000002
+            ],
+            [
+              82.5009539180574,
+              25.000980000000002
+            ],
+            [
+              82.50098,
+              25.00193
+            ],
+            [
+              82.50003,
+              25.001936535298853
+            ],
+            [
+              82.50003,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "103",
+        "Owner_Name": "Owner_103",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.89,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00198
+            ],
+            [
+              82.50095724360814,
+              25.00198
+            ],
+            [
+              82.50098,
+              25.00293
+            ],
+            [
+              82.50003,
+              25.002923656464827
+            ],
+            [
+              82.50003,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "104",
+        "Owner_Name": "Owner_104",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.83,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00298
+            ],
+            [
+              82.50098480823385,
+              25.00298
+            ],
+            [
+              82.50098,
+              25.00393
+            ],
+            [
+              82.50003,
+              25.003883750123112
+            ],
+            [
+              82.50003,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "105",
+        "Owner_Name": "Owner_105",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.98,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.003980000000002
+            ],
+            [
+              82.50097663507094,
+              25.003980000000002
+            ],
+            [
+              82.50098,
+              25.00493
+            ],
+            [
+              82.50003,
+              25.004922884386456
+            ],
+            [
+              82.50003,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "106",
+        "Owner_Name": "Owner_106",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.04,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00498
+            ],
+            [
+              82.50097183998268,
+              25.00498
+            ],
+            [
+              82.50098,
+              25.00593
+            ],
+            [
+              82.50003,
+              25.0059410188052
+            ],
+            [
+              82.50003,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "107",
+        "Owner_Name": "Owner_107",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.31,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00598
+            ],
+            [
+              82.50100135444494,
+              25.00598
+            ],
+            [
+              82.50098,
+              25.00693
+            ],
+            [
+              82.50003,
+              25.00696920324981
+            ],
+            [
+              82.50003,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "108",
+        "Owner_Name": "Owner_108",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.17,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.006980000000002
+            ],
+            [
+              82.50101167789951,
+              25.006980000000002
+            ],
+            [
+              82.50098,
+              25.00793
+            ],
+            [
+              82.50003,
+              25.007927903944346
+            ],
+            [
+              82.50003,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "109",
+        "Owner_Name": "Owner_109",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.05,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00798
+            ],
+            [
+              82.5009947969416,
+              25.00798
+            ],
+            [
+              82.50098,
+              25.00893
+            ],
+            [
+              82.50003,
+              25.00892109938057
+            ],
+            [
+              82.50003,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "110",
+        "Owner_Name": "Owner_110",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.28,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50003,
+              25.00898
+            ],
+            [
+              82.5010196886981,
+              25.00898
+            ],
+            [
+              82.50098,
+              25.00993
+            ],
+            [
+              82.50003,
+              25.009944028693916
+            ],
+            [
+              82.50003,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "111",
+        "Owner_Name": "Owner_111",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.14,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              24.99998
+            ],
+            [
+              82.50201825618164,
+              24.99998
+            ],
+            [
+              82.50198,
+              25.00093
+            ],
+            [
+              82.50103,
+              25.00091633408584
+            ],
+            [
+              82.50103,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "112",
+        "Owner_Name": "Owner_112",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.94,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.000980000000002
+            ],
+            [
+              82.50200005071936,
+              25.000980000000002
+            ],
+            [
+              82.50198,
+              25.00193
+            ],
+            [
+              82.50103,
+              25.001892248218553
+            ],
+            [
+              82.50103,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "113",
+        "Owner_Name": "Owner_113",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.33,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00198
+            ],
+            [
+              82.5020241984533,
+              25.00198
+            ],
+            [
+              82.50198,
+              25.00293
+            ],
+            [
+              82.50103,
+              25.002949929840913
+            ],
+            [
+              82.50103,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "114",
+        "Owner_Name": "Owner_114",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.36,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00298
+            ],
+            [
+              82.50202103074389,
+              25.00298
+            ],
+            [
+              82.50198,
+              25.00393
+            ],
+            [
+              82.50103,
+              25.003959516467813
+            ],
+            [
+              82.50103,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "115",
+        "Owner_Name": "Owner_115",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.03,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.003980000000002
+            ],
+            [
+              82.50194268022483,
+              25.003980000000002
+            ],
+            [
+              82.50198,
+              25.00493
+            ],
+            [
+              82.50103,
+              25.00496792740181
+            ],
+            [
+              82.50103,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "116",
+        "Owner_Name": "Owner_116",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.7,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00498
+            ],
+            [
+              82.5019375050127,
+              25.00498
+            ],
+            [
+              82.50198,
+              25.00593
+            ],
+            [
+              82.50103,
+              25.0059046871698
+            ],
+            [
+              82.50103,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "117",
+        "Owner_Name": "Owner_117",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.26,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00598
+            ],
+            [
+              82.50198061745176,
+              25.00598
+            ],
+            [
+              82.50198,
+              25.00693
+            ],
+            [
+              82.50103,
+              25.00697908446952
+            ],
+            [
+              82.50103,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "118",
+        "Owner_Name": "Owner_118",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.44,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.006980000000002
+            ],
+            [
+              82.50202834643916,
+              25.006980000000002
+            ],
+            [
+              82.50198,
+              25.00793
+            ],
+            [
+              82.50103,
+              25.007968470305713
+            ],
+            [
+              82.50103,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "119",
+        "Owner_Name": "Owner_119",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.75,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00798
+            ],
+            [
+              82.50196192132,
+              25.00798
+            ],
+            [
+              82.50198,
+              25.00893
+            ],
+            [
+              82.50103,
+              25.00889050186687
+            ],
+            [
+              82.50103,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "120",
+        "Owner_Name": "Owner_120",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.86,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50103,
+              25.00898
+            ],
+            [
+              82.50193527551501,
+              25.00898
+            ],
+            [
+              82.50198,
+              25.00993
+            ],
+            [
+              82.50103,
+              25.009939661629836
+            ],
+            [
+              82.50103,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "121",
+        "Owner_Name": "Owner_121",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.06,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              24.99998
+            ],
+            [
+              82.50300375487052,
+              24.99998
+            ],
+            [
+              82.50298,
+              25.00093
+            ],
+            [
+              82.50202999999999,
+              25.00091412437114
+            ],
+            [
+              82.50202999999999,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "122",
+        "Owner_Name": "Owner_122",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.7,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.000980000000002
+            ],
+            [
+              82.50294840290927,
+              25.000980000000002
+            ],
+            [
+              82.50298,
+              25.00193
+            ],
+            [
+              82.50202999999999,
+              25.00189291725381
+            ],
+            [
+              82.50202999999999,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "123",
+        "Owner_Name": "Owner_123",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00198
+            ],
+            [
+              82.50299193362478,
+              25.00198
+            ],
+            [
+              82.50298,
+              25.00293
+            ],
+            [
+              82.50202999999999,
+              25.002912305335276
+            ],
+            [
+              82.50202999999999,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "124",
+        "Owner_Name": "Owner_124",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.48,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00298
+            ],
+            [
+              82.50302612585278,
+              25.00298
+            ],
+            [
+              82.50298,
+              25.00393
+            ],
+            [
+              82.50202999999999,
+              25.00397930809792
+            ],
+            [
+              82.50202999999999,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "125",
+        "Owner_Name": "Owner_125",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.97,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.003980000000002
+            ],
+            [
+              82.50293155007185,
+              25.003980000000002
+            ],
+            [
+              82.50298,
+              25.00493
+            ],
+            [
+              82.50202999999999,
+              25.00496606578318
+            ],
+            [
+              82.50202999999999,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "126",
+        "Owner_Name": "Owner_126",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.95,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00498
+            ],
+            [
+              82.50294252201763,
+              25.00498
+            ],
+            [
+              82.50298,
+              25.00593
+            ],
+            [
+              82.50202999999999,
+              25.005952162081716
+            ],
+            [
+              82.50202999999999,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "127",
+        "Owner_Name": "Owner_127",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.7,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00598
+            ],
+            [
+              82.50295819755054,
+              25.00598
+            ],
+            [
+              82.50298,
+              25.00693
+            ],
+            [
+              82.50202999999999,
+              25.0068828362856
+            ],
+            [
+              82.50202999999999,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "128",
+        "Owner_Name": "Owner_128",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.006980000000002
+            ],
+            [
+              82.50296649665445,
+              25.006980000000002
+            ],
+            [
+              82.50298,
+              25.00793
+            ],
+            [
+              82.50202999999999,
+              25.007938327776664
+            ],
+            [
+              82.50202999999999,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "129",
+        "Owner_Name": "Owner_129",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.22,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00798
+            ],
+            [
+              82.50299125876317,
+              25.00798
+            ],
+            [
+              82.50298,
+              25.00893
+            ],
+            [
+              82.50202999999999,
+              25.008959143600418
+            ],
+            [
+              82.50202999999999,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "130",
+        "Owner_Name": "Owner_130",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.9,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50202999999999,
+              25.00898
+            ],
+            [
+              82.50298591913855,
+              25.00898
+            ],
+            [
+              82.50298,
+              25.00993
+            ],
+            [
+              82.50202999999999,
+              25.00989720232913
+            ],
+            [
+              82.50202999999999,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "131",
+        "Owner_Name": "Owner_131",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.83,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              24.99998
+            ],
+            [
+              82.50394553445648,
+              24.99998
+            ],
+            [
+              82.50398,
+              25.00093
+            ],
+            [
+              82.50303,
+              25.00092317359875
+            ],
+            [
+              82.50303,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "132",
+        "Owner_Name": "Owner_132",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.99,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.000980000000002
+            ],
+            [
+              82.50394173582518,
+              25.000980000000002
+            ],
+            [
+              82.50398,
+              25.00193
+            ],
+            [
+              82.50303,
+              25.001961927421462
+            ],
+            [
+              82.50303,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "133",
+        "Owner_Name": "Owner_133",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.22,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00198
+            ],
+            [
+              82.5039807247812,
+              25.00198
+            ],
+            [
+              82.50398,
+              25.00293
+            ],
+            [
+              82.50303,
+              25.002971150388394
+            ],
+            [
+              82.50303,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "134",
+        "Owner_Name": "Owner_134",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.3,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00298
+            ],
+            [
+              82.50402274921689,
+              25.00298
+            ],
+            [
+              82.50398,
+              25.00393
+            ],
+            [
+              82.50303,
+              25.003945163112014
+            ],
+            [
+              82.50303,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "135",
+        "Owner_Name": "Owner_135",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.27,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.003980000000002
+            ],
+            [
+              82.50400630882807,
+              25.003980000000002
+            ],
+            [
+              82.50398,
+              25.00493
+            ],
+            [
+              82.50303,
+              25.004955771974796
+            ],
+            [
+              82.50303,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "136",
+        "Owner_Name": "Owner_136",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.84,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00498
+            ],
+            [
+              82.5039797265888,
+              25.00498
+            ],
+            [
+              82.50398,
+              25.00593
+            ],
+            [
+              82.50303,
+              25.00589064231013
+            ],
+            [
+              82.50303,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "137",
+        "Owner_Name": "Owner_137",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.02,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00598
+            ],
+            [
+              82.5039547543764,
+              25.00598
+            ],
+            [
+              82.50398,
+              25.00693
+            ],
+            [
+              82.50303,
+              25.006953942869302
+            ],
+            [
+              82.50303,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "138",
+        "Owner_Name": "Owner_138",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.95,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.006980000000002
+            ],
+            [
+              82.50393154874153,
+              25.006980000000002
+            ],
+            [
+              82.50398,
+              25.00793
+            ],
+            [
+              82.50303,
+              25.007962761929203
+            ],
+            [
+              82.50303,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "139",
+        "Owner_Name": "Owner_139",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.01,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00798
+            ],
+            [
+              82.50400280031089,
+              25.00798
+            ],
+            [
+              82.50398,
+              25.00893
+            ],
+            [
+              82.50303,
+              25.008903665456277
+            ],
+            [
+              82.50303,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "140",
+        "Owner_Name": "Owner_140",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.81,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50303,
+              25.00898
+            ],
+            [
+              82.50393627813062,
+              25.00898
+            ],
+            [
+              82.50398,
+              25.00993
+            ],
+            [
+              82.50303,
+              25.009927458274266
+            ],
+            [
+              82.50303,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "141",
+        "Owner_Name": "Owner_141",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.21,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              24.99998
+            ],
+            [
+              82.50499950541182,
+              24.99998
+            ],
+            [
+              82.50498,
+              25.00093
+            ],
+            [
+              82.50403,
+              25.00094910130144
+            ],
+            [
+              82.50403,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "142",
+        "Owner_Name": "Owner_142",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.22,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.000980000000002
+            ],
+            [
+              82.50498105142985,
+              25.000980000000002
+            ],
+            [
+              82.50498,
+              25.00193
+            ],
+            [
+              82.50403,
+              25.001971007484393
+            ],
+            [
+              82.50403,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "143",
+        "Owner_Name": "Owner_143",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.22,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00198
+            ],
+            [
+              82.5049751300434,
+              25.00198
+            ],
+            [
+              82.50498,
+              25.00293
+            ],
+            [
+              82.50403,
+              25.00297629220133
+            ],
+            [
+              82.50403,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "144",
+        "Owner_Name": "Owner_144",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00298
+            ],
+            [
+              82.50494326528943,
+              25.00298
+            ],
+            [
+              82.50498,
+              25.00393
+            ],
+            [
+              82.50403,
+              25.003961778804722
+            ],
+            [
+              82.50403,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "145",
+        "Owner_Name": "Owner_145",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.31,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.003980000000002
+            ],
+            [
+              82.50500592269324,
+              25.003980000000002
+            ],
+            [
+              82.50498,
+              25.00493
+            ],
+            [
+              82.50403,
+              25.004964610331747
+            ],
+            [
+              82.50403,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "146",
+        "Owner_Name": "Owner_146",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.27,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00498
+            ],
+            [
+              82.50500840406502,
+              25.00498
+            ],
+            [
+              82.50498,
+              25.00593
+            ],
+            [
+              82.50403,
+              25.00595311409218
+            ],
+            [
+              82.50403,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "147",
+        "Owner_Name": "Owner_147",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.79,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00598
+            ],
+            [
+              82.50496399423731,
+              25.00598
+            ],
+            [
+              82.50498,
+              25.00693
+            ],
+            [
+              82.50403,
+              25.00689650880302
+            ],
+            [
+              82.50403,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "148",
+        "Owner_Name": "Owner_148",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.17,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.006980000000002
+            ],
+            [
+              82.50497398676363,
+              25.006980000000002
+            ],
+            [
+              82.50498,
+              25.00793
+            ],
+            [
+              82.50403,
+              25.007965787604373
+            ],
+            [
+              82.50403,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "149",
+        "Owner_Name": "Owner_149",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.89,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00798
+            ],
+            [
+              82.50497060158814,
+              25.00798
+            ],
+            [
+              82.50498,
+              25.00893
+            ],
+            [
+              82.50403,
+              25.008911336203493
+            ],
+            [
+              82.50403,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "150",
+        "Owner_Name": "Owner_150",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.85,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50403,
+              25.00898
+            ],
+            [
+              82.50493873856186,
+              25.00898
+            ],
+            [
+              82.50498,
+              25.00993
+            ],
+            [
+              82.50403,
+              25.00993415167214
+            ],
+            [
+              82.50403,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "151",
+        "Owner_Name": "Owner_151",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.76,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              24.99998
+            ],
+            [
+              82.50596283040481,
+              24.99998
+            ],
+            [
+              82.50598,
+              25.00093
+            ],
+            [
+              82.50502999999999,
+              25.000892379581074
+            ],
+            [
+              82.50502999999999,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "152",
+        "Owner_Name": "Owner_152",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.93,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.000980000000002
+            ],
+            [
+              82.5059628486523,
+              25.000980000000002
+            ],
+            [
+              82.50598,
+              25.00193
+            ],
+            [
+              82.50502999999999,
+              25.001926629065366
+            ],
+            [
+              82.50502999999999,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "153",
+        "Owner_Name": "Owner_153",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.24,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00198
+            ],
+            [
+              82.50600784272727,
+              25.00198
+            ],
+            [
+              82.50598,
+              25.00293
+            ],
+            [
+              82.50502999999999,
+              25.002947195597574
+            ],
+            [
+              82.50502999999999,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "154",
+        "Owner_Name": "Owner_154",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.14,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00298
+            ],
+            [
+              82.50596327829793,
+              25.00298
+            ],
+            [
+              82.50598,
+              25.00393
+            ],
+            [
+              82.50502999999999,
+              25.003971125263554
+            ],
+            [
+              82.50502999999999,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "155",
+        "Owner_Name": "Owner_155",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.85,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.003980000000002
+            ],
+            [
+              82.5059303489004,
+              25.003980000000002
+            ],
+            [
+              82.50598,
+              25.00493
+            ],
+            [
+              82.50502999999999,
+              25.00494383931777
+            ],
+            [
+              82.50502999999999,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "156",
+        "Owner_Name": "Owner_156",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00498
+            ],
+            [
+              82.50598745387573,
+              25.00498
+            ],
+            [
+              82.50598,
+              25.00593
+            ],
+            [
+              82.50502999999999,
+              25.005917262999986
+            ],
+            [
+              82.50502999999999,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "157",
+        "Owner_Name": "Owner_157",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.06,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00598
+            ],
+            [
+              82.50598578631816,
+              25.00598
+            ],
+            [
+              82.50598,
+              25.00693
+            ],
+            [
+              82.50502999999999,
+              25.00693245666885
+            ],
+            [
+              82.50502999999999,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "158",
+        "Owner_Name": "Owner_158",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.23,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.006980000000002
+            ],
+            [
+              82.50601005422735,
+              25.006980000000002
+            ],
+            [
+              82.50598,
+              25.00793
+            ],
+            [
+              82.50502999999999,
+              25.00794369842222
+            ],
+            [
+              82.50502999999999,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "159",
+        "Owner_Name": "Owner_159",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00798
+            ],
+            [
+              82.5059821116472,
+              25.00798
+            ],
+            [
+              82.50598,
+              25.00893
+            ],
+            [
+              82.50502999999999,
+              25.00892291440536
+            ],
+            [
+              82.50502999999999,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "160",
+        "Owner_Name": "Owner_160",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.38,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50502999999999,
+              25.00898
+            ],
+            [
+              82.50601763917612,
+              25.00898
+            ],
+            [
+              82.50598,
+              25.00993
+            ],
+            [
+              82.50502999999999,
+              25.009967877983314
+            ],
+            [
+              82.50502999999999,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "161",
+        "Owner_Name": "Owner_161",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.3,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              24.99998
+            ],
+            [
+              82.50700172233141,
+              24.99998
+            ],
+            [
+              82.50698,
+              25.00093
+            ],
+            [
+              82.50603,
+              25.000966049272513
+            ],
+            [
+              82.50603,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "162",
+        "Owner_Name": "Owner_162",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.91,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.000980000000002
+            ],
+            [
+              82.50693477696595,
+              25.000980000000002
+            ],
+            [
+              82.50698,
+              25.00193
+            ],
+            [
+              82.50603,
+              25.001950185083317
+            ],
+            [
+              82.50603,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "163",
+        "Owner_Name": "Owner_163",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.06,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00198
+            ],
+            [
+              82.5069944013353,
+              25.00198
+            ],
+            [
+              82.50698,
+              25.00293
+            ],
+            [
+              82.50603,
+              25.002922525868872
+            ],
+            [
+              82.50603,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "164",
+        "Owner_Name": "Owner_164",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.96,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00298
+            ],
+            [
+              82.50700794083916,
+              25.00298
+            ],
+            [
+              82.50698,
+              25.00393
+            ],
+            [
+              82.50603,
+              25.00388875751948
+            ],
+            [
+              82.50603,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "165",
+        "Owner_Name": "Owner_165",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.02,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.003980000000002
+            ],
+            [
+              82.50698420632027,
+              25.003980000000002
+            ],
+            [
+              82.50698,
+              25.00493
+            ],
+            [
+              82.50603,
+              25.004924544789198
+            ],
+            [
+              82.50603,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "166",
+        "Owner_Name": "Owner_166",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.89,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00498
+            ],
+            [
+              82.50697346766819,
+              25.00498
+            ],
+            [
+              82.50698,
+              25.00593
+            ],
+            [
+              82.50603,
+              25.005907991436462
+            ],
+            [
+              82.50603,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "167",
+        "Owner_Name": "Owner_167",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.09,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00598
+            ],
+            [
+              82.50698405210315,
+              25.00598
+            ],
+            [
+              82.50698,
+              25.00693
+            ],
+            [
+              82.50603,
+              25.006940208847983
+            ],
+            [
+              82.50603,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "168",
+        "Owner_Name": "Owner_168",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.0,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.006980000000002
+            ],
+            [
+              82.50695579758462,
+              25.006980000000002
+            ],
+            [
+              82.50698,
+              25.00793
+            ],
+            [
+              82.50603,
+              25.00794909837796
+            ],
+            [
+              82.50603,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "169",
+        "Owner_Name": "Owner_169",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.71,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00798
+            ],
+            [
+              82.50695092408984,
+              25.00798
+            ],
+            [
+              82.50698,
+              25.00893
+            ],
+            [
+              82.50603,
+              25.00889306687071
+            ],
+            [
+              82.50603,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "170",
+        "Owner_Name": "Owner_170",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.11,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50603,
+              25.00898
+            ],
+            [
+              82.50697635351686,
+              25.00898
+            ],
+            [
+              82.50698,
+              25.00993
+            ],
+            [
+              82.50603,
+              25.009950650521183
+            ],
+            [
+              82.50603,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "171",
+        "Owner_Name": "Owner_171",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.18,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              24.99998
+            ],
+            [
+              82.50796664281039,
+              24.99998
+            ],
+            [
+              82.50798,
+              25.00093
+            ],
+            [
+              82.50703,
+              25.00097652764138
+            ],
+            [
+              82.50703,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "172",
+        "Owner_Name": "Owner_172",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.88,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.000980000000002
+            ],
+            [
+              82.50798467990722,
+              25.000980000000002
+            ],
+            [
+              82.50798,
+              25.00193
+            ],
+            [
+              82.50703,
+              25.001895281117864
+            ],
+            [
+              82.50703,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "173",
+        "Owner_Name": "Owner_173",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.25,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00198
+            ],
+            [
+              82.5079863212424,
+              25.00198
+            ],
+            [
+              82.50798,
+              25.00293
+            ],
+            [
+              82.50703,
+              25.002970955190484
+            ],
+            [
+              82.50703,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "174",
+        "Owner_Name": "Owner_174",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.78,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00298
+            ],
+            [
+              82.50795110745533,
+              25.00298
+            ],
+            [
+              82.50798,
+              25.00393
+            ],
+            [
+              82.50703,
+              25.00390712122945
+            ],
+            [
+              82.50703,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "175",
+        "Owner_Name": "Owner_175",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.07,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.003980000000002
+            ],
+            [
+              82.50795458368651,
+              25.003980000000002
+            ],
+            [
+              82.50798,
+              25.00493
+            ],
+            [
+              82.50703,
+              25.00496589342814
+            ],
+            [
+              82.50703,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "176",
+        "Owner_Name": "Owner_176",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.85,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00498
+            ],
+            [
+              82.50795113150947,
+              25.00498
+            ],
+            [
+              82.50798,
+              25.00593
+            ],
+            [
+              82.50703,
+              25.005921909544426
+            ],
+            [
+              82.50703,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "177",
+        "Owner_Name": "Owner_177",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 8.91,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00598
+            ],
+            [
+              82.50798444037967,
+              25.00598
+            ],
+            [
+              82.50798,
+              25.00693
+            ],
+            [
+              82.50703,
+              25.00690132997858
+            ],
+            [
+              82.50703,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "178",
+        "Owner_Name": "Owner_178",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.66,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.006980000000002
+            ],
+            [
+              82.5079474461773,
+              25.006980000000002
+            ],
+            [
+              82.50798,
+              25.00793
+            ],
+            [
+              82.50703,
+              25.00788566904995
+            ],
+            [
+              82.50703,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "179",
+        "Owner_Name": "Owner_179",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.96,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00798
+            ],
+            [
+              82.50794858143595,
+              25.00798
+            ],
+            [
+              82.50798,
+              25.00893
+            ],
+            [
+              82.50703,
+              25.00894737713404
+            ],
+            [
+              82.50703,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "180",
+        "Owner_Name": "Owner_180",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.93,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50703,
+              25.00898
+            ],
+            [
+              82.50797419961604,
+              25.00898
+            ],
+            [
+              82.50798,
+              25.00993
+            ],
+            [
+              82.50703,
+              25.009915609923517
+            ],
+            [
+              82.50703,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "181",
+        "Owner_Name": "Owner_181",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 8.97,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              24.99998
+            ],
+            [
+              82.50901628435585,
+              24.99998
+            ],
+            [
+              82.50898,
+              25.00093
+            ],
+            [
+              82.50802999999999,
+              25.00088191847329
+            ],
+            [
+              82.50802999999999,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "182",
+        "Owner_Name": "Owner_182",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.05,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.000980000000002
+            ],
+            [
+              82.50894856799205,
+              25.000980000000002
+            ],
+            [
+              82.50898,
+              25.00193
+            ],
+            [
+              82.50802999999999,
+              25.001965918395936
+            ],
+            [
+              82.50802999999999,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "183",
+        "Owner_Name": "Owner_183",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.8,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00198
+            ],
+            [
+              82.5089549310758,
+              25.00198
+            ],
+            [
+              82.50898,
+              25.00293
+            ],
+            [
+              82.50802999999999,
+              25.002908347091815
+            ],
+            [
+              82.50802999999999,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "184",
+        "Owner_Name": "Owner_184",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.99,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00298
+            ],
+            [
+              82.50893080813695,
+              25.00298
+            ],
+            [
+              82.50898,
+              25.00393
+            ],
+            [
+              82.50802999999999,
+              25.003971118638667
+            ],
+            [
+              82.50802999999999,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "185",
+        "Owner_Name": "Owner_185",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 9.16,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.003980000000002
+            ],
+            [
+              82.50897775246763,
+              25.003980000000002
+            ],
+            [
+              82.50898,
+              25.00493
+            ],
+            [
+              82.50802999999999,
+              25.004961430765242
+            ],
+            [
+              82.50802999999999,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "186",
+        "Owner_Name": "Owner_186",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.22,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00498
+            ],
+            [
+              82.508989993405,
+              25.00498
+            ],
+            [
+              82.50898,
+              25.00593
+            ],
+            [
+              82.50802999999999,
+              25.005962104962965
+            ],
+            [
+              82.50802999999999,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "187",
+        "Owner_Name": "Owner_187",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.99,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00598
+            ],
+            [
+              82.50897049845275,
+              25.00598
+            ],
+            [
+              82.50898,
+              25.00693
+            ],
+            [
+              82.50802999999999,
+              25.006932847182863
+            ],
+            [
+              82.50802999999999,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "188",
+        "Owner_Name": "Owner_188",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.61,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.006980000000002
+            ],
+            [
+              82.50893177424749,
+              25.006980000000002
+            ],
+            [
+              82.50898,
+              25.00793
+            ],
+            [
+              82.50802999999999,
+              25.00789002425974
+            ],
+            [
+              82.50802999999999,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "189",
+        "Owner_Name": "Owner_189",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.15,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00798
+            ],
+            [
+              82.50900430564701,
+              25.00798
+            ],
+            [
+              82.50898,
+              25.00893
+            ],
+            [
+              82.50802999999999,
+              25.008932652975865
+            ],
+            [
+              82.50802999999999,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "190",
+        "Owner_Name": "Owner_190",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.08,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50802999999999,
+              25.00898
+            ],
+            [
+              82.50896246516746,
+              25.00898
+            ],
+            [
+              82.50898,
+              25.00993
+            ],
+            [
+              82.50802999999999,
+              25.00995820180007
+            ],
+            [
+              82.50802999999999,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "191",
+        "Owner_Name": "Owner_191",
+        "Land_Type": "Residential",
+        "Recorded_Area": 8.86,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              24.99998
+            ],
+            [
+              82.50997580706196,
+              24.99998
+            ],
+            [
+              82.50998,
+              25.00093
+            ],
+            [
+              82.50903,
+              25.00089933027159
+            ],
+            [
+              82.50903,
+              24.99998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "192",
+        "Owner_Name": "Owner_192",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.11,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.000980000000002
+            ],
+            [
+              82.50997339156736,
+              25.000980000000002
+            ],
+            [
+              82.50998,
+              25.00193
+            ],
+            [
+              82.50903,
+              25.00195521557073
+            ],
+            [
+              82.50903,
+              25.000980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "193",
+        "Owner_Name": "Owner_193",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.2,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00198
+            ],
+            [
+              82.51000706271665,
+              25.00198
+            ],
+            [
+              82.50998,
+              25.00293
+            ],
+            [
+              82.50903,
+              25.002940014851216
+            ],
+            [
+              82.50903,
+              25.00198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "194",
+        "Owner_Name": "Owner_194",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.91,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00298
+            ],
+            [
+              82.50997101545727,
+              25.00298
+            ],
+            [
+              82.50998,
+              25.00393
+            ],
+            [
+              82.50903,
+              25.003913847003066
+            ],
+            [
+              82.50903,
+              25.00298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "195",
+        "Owner_Name": "Owner_195",
+        "Land_Type": "Residential",
+        "Recorded_Area": 9.07,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.003980000000002
+            ],
+            [
+              82.50997360492353,
+              25.003980000000002
+            ],
+            [
+              82.50998,
+              25.00493
+            ],
+            [
+              82.50903,
+              25.004946054160698
+            ],
+            [
+              82.50903,
+              25.003980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "196",
+        "Owner_Name": "Owner_196",
+        "Land_Type": "Agricultural",
+        "Recorded_Area": 8.79,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00498
+            ],
+            [
+              82.50995464357119,
+              25.00498
+            ],
+            [
+              82.50998,
+              25.00593
+            ],
+            [
+              82.50903,
+              25.005905809070317
+            ],
+            [
+              82.50903,
+              25.00498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "197",
+        "Owner_Name": "Owner_197",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.19,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00598
+            ],
+            [
+              82.50997929138309,
+              25.00598
+            ],
+            [
+              82.50998,
+              25.00693
+            ],
+            [
+              82.50903,
+              25.00696491049047
+            ],
+            [
+              82.50903,
+              25.00598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "198",
+        "Owner_Name": "Owner_198",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.17,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.006980000000002
+            ],
+            [
+              82.50999747996116,
+              25.006980000000002
+            ],
+            [
+              82.50998,
+              25.00793
+            ],
+            [
+              82.50903,
+              25.007943797188187
+            ],
+            [
+              82.50903,
+              25.006980000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "199",
+        "Owner_Name": "Owner_199",
+        "Land_Type": "Mixed Use",
+        "Recorded_Area": 9.16,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00798
+            ],
+            [
+              82.50997248080171,
+              25.00798
+            ],
+            [
+              82.50998,
+              25.00893
+            ],
+            [
+              82.50903,
+              25.008966423386514
+            ],
+            [
+              82.50903,
+              25.00798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Khasra_No": "200",
+        "Owner_Name": "Owner_200",
+        "Land_Type": "Commercial",
+        "Recorded_Area": 9.41,
+        "Survey_Year": 2012
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.50903,
+              25.00898
+            ],
+            [
+              82.51001235283618,
+              25.00898
+            ],
+            [
+              82.50998,
+              25.00993
+            ],
+            [
+              82.50903,
+              25.00997971298851
+            ],
+            [
+              82.50903,
+              25.00898
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
