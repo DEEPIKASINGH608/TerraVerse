@@ -1,33 +1,19 @@
-from shapely.geometry import Polygon
-import numpy as np
+from typing import Dict, Any
+from backend.app.services.geospatial.geometry_utils import GeometryUtils
 
-class FeatureEngineering:
+
+class FeatureEngineer:
+    """Engineers similarity features between candidate record pairs."""
+
     @staticmethod
-    def compute_pairwise_metrics(poly_a: Polygon, poly_b: Polygon) -> dict:
-        """Derives invariant spatial metrics between candidate polygons."""
-        if not poly_a.intersects(poly_b):
-            return {
-                "iou": 0.0,
-                "area_ratio": 0.0,
-                "centroid_dist": 999.0,
-                "hausdorff_dist": 999.0
-            }
+    def compute_pair_features(row_a: Any, row_b: Any) -> Dict[str, float]:
+        iou = GeometryUtils.calculate_intersection_over_union(row_a.geometry, row_b.geometry)
 
-        intersection = poly_a.intersection(poly_b).area
-        union = poly_a.union(poly_b).area
-        iou = intersection / union if union > 0 else 0.0
-
-        area_a = poly_a.area
-        area_b = poly_b.area
-        area_ratio = min(area_a, area_b) / max(area_a, area_b) if max(area_a, area_b) > 0 else 0.0
-
-        centroid_dist = poly_a.centroid.distance(poly_b.centroid)
-
-        hausdorff_dist = poly_a.hausdorff_distance(poly_b)
+        area_a = row_a.geometry.area
+        area_b = row_b.geometry.area
+        area_ratio = (min(area_a, area_b) / max(area_a, area_b)) if max(area_a, area_b) > 0 else 0.0
 
         return {
-            "iou": float(iou),
-            "area_ratio": float(area_ratio),
-            "centroid_dist": float(centroid_dist),
-            "hausdorff_dist": float(hausdorff_dist)
+            "iou": round(iou, 4),
+            "area_ratio": round(area_ratio, 4),
         }

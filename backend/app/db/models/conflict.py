@@ -1,22 +1,20 @@
-from sqlalchemy import Column, String, Float, DateTime, JSON, Text
-from datetime import datetime, timezone
-import uuid
-from app.db.session import Base
+from datetime import datetime
+from sqlalchemy import Column, Integer, String, Float, DateTime, JSON
+
+from backend.app.db.base import Base
+
 
 class ConflictModel(Base):
-    __tablename__ = "geometry_conflicts"
+    __tablename__ = "conflicts"
 
-    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
-    parcel_id = Column(String, index=True, nullable=False)
-    conflict_type = Column(String, nullable=False)
-    severity = Column(String, nullable=False)
-    status = Column(String, default="OPEN")         
-
-    contending_sources = Column(JSON, nullable=False)
-    evidence_data = Column(JSON, nullable=False)
-    ai_recommendation = Column(JSON, nullable=False)
-    confidence = Column(Float, default=0.0)
-
-    resolution_notes = Column(Text, nullable=True)
-    resolved_by = Column(String, nullable=True)
-    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    parcel_id = Column(String(100), nullable=False, index=True)
+    conflict_type = Column(String(100), nullable=False)
+    severity = Column(String(20), default="MEDIUM")  # LOW, MEDIUM, HIGH, CRITICAL
+    status = Column(String(50), default="OPEN", index=True)  # OPEN, IN_REVIEW, RESOLVED
+    contending_sources = Column(JSON, nullable=True)
+    evidence_data = Column(JSON, nullable=True)
+    ai_recommendation = Column(JSON, nullable=True)
+    confidence = Column(Float, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)

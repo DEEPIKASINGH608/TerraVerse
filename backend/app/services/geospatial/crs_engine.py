@@ -1,15 +1,22 @@
-import pyproj
+import logging
 import geopandas as gpd
-from app.core.config import settings
+
+logger = logging.getLogger("terraverse")
+
 
 class CRSEngine:
-    @staticmethod
-    def verify_and_transform(gdf: gpd.GeoDataFrame, target_crs: str = settings.TARGET_CRS) -> gpd.GeoDataFrame:
-        """Transforms GeoDataFrame safely to target projection."""
-        if gdf.crs is None:
-            gdf.set_crs("EPSG:4326", inplace=True)
+    """Handles Coordinate Reference System (CRS) transformations."""
 
-        if gdf.crs.to_string() != target_crs:
-            gdf = gdf.to_crs(target_crs)
+    @staticmethod
+    def reproject(gdf: gpd.GeoDataFrame, target_crs: str = "EPSG:4326") -> gpd.GeoDataFrame:
+        """Reprojects GeoDataFrame to target CRS safely."""
+        if gdf.crs is None:
+            logger.warning(f"GeoDataFrame lacks CRS. Assigning default target '{target_crs}'.")
+            gdf.set_crs(target_crs, inplace=True)
+            return gdf
+
+        if gdf.crs.to_string().upper() != target_crs.upper():
+            logger.info(f"Reprojecting layer from '{gdf.crs}' to '{target_crs}'.")
+            return gdf.to_crs(target_crs)
 
         return gdf

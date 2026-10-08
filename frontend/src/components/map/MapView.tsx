@@ -7,78 +7,107 @@ interface MapViewProps {
 }
 
 export const MapView: React.FC<MapViewProps> = ({ onParcelSelect }) => {
-  const mapContainer = useRef<HTMLDivElement null |>(null);
+  const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<maplibregl.Map | null>(null);
 
   useEffect(() => {
     if (map.current || !mapContainer.current) return;
 
-    map.current = new maplibregl.Map({
+    const instance = new maplibregl.Map({
       container: mapContainer.current,
-      style: '[https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json](https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json)',
+      style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
       center: [82.505, 25.005],
-      zoom: 15
+      zoom: 15,
     });
 
-    map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
+    map.current = instance;
 
-    map.current.on('load', () => {
-      map.current?.addSource('shakti-parcels', {
-        type: 'geojson',
-        data: {
-          type: 'FeatureCollection',
-          features: [
-            {
-              type: 'Feature',
-              properties: { id: 'SN-P-101', confidence: 0.96, status: 'harmonized' },
-              geometry: {
-                type: 'Polygon',
-                coordinates: [[[82.500, 25.000], [82.501, 25.000], [82.501, 25.001], [82.500, 25.001], [82.500, 25.000]]]
-              }
+    instance.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    instance.on('load', () => {
+      const geojson: geojson.FeatureCollection = {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            properties: { id: 'SN-P-101', confidence: 0.96, status: 'harmonized' },
+            geometry: {
+              type: 'Polygon',
+              coordinates: [
+                [
+                  [82.500, 25.000],
+                  [82.501, 25.000],
+                  [82.501, 25.001],
+                  [82.500, 25.001],
+                  [82.500, 25.000],
+                ],
+              ],
             },
-            {
-              type: 'Feature',
-              properties: { id: 'SN-P-102', confidence: 0.65, status: 'needs_review' },
-              geometry: {
-                type: 'Polygon',
-                coordinates: [[[82.501, 25.000], [82.502, 25.000], [82.502, 25.001], [82.501, 25.001], [82.501, 25.000]]]
-              }
-            }
-          ]
-        }
+          },
+          {
+            type: 'Feature',
+            properties: { id: 'SN-P-102', confidence: 0.65, status: 'needs_review' },
+            geometry: {
+              type: 'Polygon',
+              coordinates: [
+                [
+                  [82.501, 25.000],
+                  [82.502, 25.000],
+                  [82.502, 25.001],
+                  [82.501, 25.001],
+                  [82.501, 25.000],
+                ],
+              ],
+            },
+          },
+        ],
+      };
+
+      instance.addSource('shakti-parcels', {
+        type: 'geojson',
+        data: geojson,
       });
 
-      map.current?.addLayer({
+      instance.addLayer({
         id: 'parcels-fill',
         type: 'fill',
         source: 'shakti-parcels',
         paint: {
           'fill-color': [
             'case',
-            ['>=', ['get', 'confidence'], 0.90], '#10B981',
-            '#EF4444'
-          ],
-          'fill-opacity': 0.5
-        }
+            ['>=', ['get', 'confidence'], 0.90],
+            '#10B981',
+            '#EF4444',
+          ] as unknown as string,
+          'fill-opacity': 0.5,
+        },
       });
 
-      map.current?.addLayer({
+      instance.addLayer({
         id: 'parcels-line',
         type: 'line',
         source: 'shakti-parcels',
         paint: {
           'line-color': '#FFFFFF',
-          'line-width': 2
-        }
+          'line-width': 2,
+        },
       });
 
-      map.current?.on('click', 'parcels-fill', (e) => {
-        if (e.features && e.features[0]) {
-          const pid = e.features[0].properties?.id;
-          if (pid && onParcelSelect) onParcelSelect(pid);
+      instance.on('click', 'parcels-fill', (e) => {
+        if (e.features && e.features.length > 0) {
+          const feature = e.features[0];
+          const pid = feature.properties?.id;
+          if (pid && typeof onParcelSelect === 'function') {
+            onParcelSelect(pid);
+          }
         }
       });
     });
+
+    return () => {
+      instance.remove();
+      map.current = null;
+    };
   }, [onParcelSelect]);
 
   return (
@@ -98,3 +127,5 @@ export const MapView: React.FC<MapViewProps> = ({ onParcelSelect }) => {
     </div>
   );
 };
+
+export default MapView;

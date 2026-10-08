@@ -1,54 +1,46 @@
-from typing import Dict, Any, List, Optional
-from shapely.geometry import shape, Polygon
+import logging
+from typing import Any, Dict, List
+import geopandas as gpd
+
+from backend.app.services.conflict.rules import ConflictRulesEngine
+
+logger = logging.getLogger("terraverse")
+
 
 class ConflictDetector:
-    @staticmethod
-    def analyze_parcel_conflict(
-        parcel_id: str,
-        revenue_data: Optional[Dict[str, Any]],
-        municipal_data: Optional[Dict[str, Any]],
-        drone_data: Optional[Dict[str, Any]]
-    ) -> Optional[Dict[str, Any]]:
-        """Compares multi-source evidence and raises structured conflicts if detected."""
+    """Scans multi-source land record datasets for spatial overlaps and ownership mismatches."""
 
+    def detect_spatial_conflicts(self, gdf_a: gpd.GeoDataFrame, gdf_b: gpd.GeoDataFrame) -> List[Dict[str, Any]]:
+        """Identifies boundary spatial overlaps exceeding tolerance thresholds."""
+        logger.info("Executing spatial conflict detection...")
         conflicts = []
-        evidence = {}
 
-        if revenue_data:
-            evidence["revenue"] = revenue_data
-        if municipal_data:
-            evidence["municipal"] = municipal_data
-        if drone_data:
-            evidence["drone"] = drone_data
+        if gdf_a.crs != gdf_b.crs:
+            gdf_b = gdf_b.to_crs(gdf_a.crs)
 
-        # Detect Area Mismatch Discrepancy (> 5% Variance)
-        areas = []
-        if revenue_data and "area_sqm" in revenue_data:
-            areas.append(("revenue", revenue_data["area_sqm"]))
-        if municipal_data and "area_sqm" in municipal_data:
-            areas.append(("municipal", municipal_data["area_sqm"]))
+        sindex_b = gdf_b.sindex
 
-        if len(areas) >= 2:
-            val1 = areas[0][1]
-            val2 = areas[1][1]
-            if val1 > 0 and abs(val1 - val2) / val1 > 0.05:
-                conflicts.append({
-                    "type": "BOUNDARY_AREA_MISMATCH",
-                    "severity": "HIGH",
-                    "details": f"Area mismatch between {areas[0][0]} ({val1} sqm) and {areas[1][0]} ({val2} sqm)"
-                })
+        for idx_a, row_a in gdf_a.iterrows():
+            geom_a = row_a.geometry
+            possible_matches_index = list(sindex_b.intersection(geom_a.bounds))
+            possible_matches = gdf_b.iloc[possible_matches_index]
 
-        if not conflicts:
-            return None
+            for idx_b, row_b in possible_matches.iterrows():
+                geom_b = row_b.geometry
+                if geom_a.intersects(geom_b):
+                    intersection_area = geom_a.intersection(geom_b).area
+                    min_area = min(geom_a.area, geom_b.area)
+                    overlap_ratio = (intersection_area / min_area) if min_area > 0 else 0
 
-        return {
-            "parcel_id": parcel_id,
-            "conflict_count": len(conflicts),
-            "conflicts": conflicts,
-            "evidence": evidence,
-            "ai_recommendation": {
-                "recommended_action": "USE_DRONE_SURVEY_BOUNDARY",
-                "reasoning": "Drone survey provides 2cm positional spatial accuracy with 0.98 trust weighting.",
-                "confidence": 0.94
-            }
-        }
+                    if 0.05 < overlap_ratio < 0.95:
+                        eval_res = ConflictRulesEngine.evaluate_area_discrepancy(geom_a.area, geom_b.area)
+                        conflicts.append({
+                            "parcel_id_a": row_a.get("parcel_id", str(idx_a)),
+                            "parcel_id_b": row_b.get("parcel_id", str(idx_b)),
+                            "overlap_ratio": round(overlap_ratio, 4),
+                            "conflict_type": "BOUNDARY_OVERLAP",
+                            "severity": eval_res["severity"],
+                        })
+
+        logger.info(f"Conflict detection finished. Found {len(conflicts)} conflict items.")
+        return conflicts

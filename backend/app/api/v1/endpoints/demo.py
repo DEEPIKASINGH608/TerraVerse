@@ -1,17 +1,32 @@
+from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from pathlib import Path
 import geopandas as gpd
-import json
 
-from app.db.session import get_db
-from app.db.models.parcel import CanonicalParcelModel
-from app.db.models.conflict import ConflictModel
-from app.services.confidence.scorer import ConfidenceScorer
+from backend.app.db.session import get_db
+from backend.app.db.models.parcel import CanonicalParcelModel
+from backend.app.db.models.conflict import ConflictModel
+from backend.app.services.confidence.scorer import ConfidenceScorer
 
 router = APIRouter()
 
-DEMO_DATA_DIR = Path("data/demo")
+BASE_DIR = Path(__file__).resolve().parents[4]
+DEMO_DATA_DIR = BASE_DIR / "data" / "demo"
+
+
+@router.get("/status")
+def get_demo_status():
+    """Checks whether demo datasets exist on disk."""
+    revenue_path = DEMO_DATA_DIR / "revenue_parcels.geojson"
+    municipal_path = DEMO_DATA_DIR / "municipal_parcels.geojson"
+    drone_path = DEMO_DATA_DIR / "drone_parcels.geojson"
+
+    exists = revenue_path.exists() and municipal_path.exists() and drone_path.exists()
+    return {
+        "demo_data_ready": exists,
+        "data_directory": str(DEMO_DATA_DIR),
+    }
+
 
 @router.post("/run")
 def execute_one_click_demo(db: Session = Depends(get_db)):
@@ -22,21 +37,23 @@ def execute_one_click_demo(db: Session = Depends(get_db)):
         drone_path = DEMO_DATA_DIR / "drone_parcels.geojson"
 
         if not revenue_path.exists():
-            raise HTTPException(status_code=404, detail="Demo dataset missing. Run scripts/generate_demo_data.py first.")
+            raise HTTPException(
+                status_code=404,
+                detail="Demo dataset missing. Run scripts/generate_demo_data.py first.",
+            )
 
         rev_gdf = gpd.read_file(revenue_path)
         mun_gdf = gpd.read_file(municipal_path)
         drone_gdf = gpd.read_file(drone_path)
 
-        # Purge existing demo records
         db.query(CanonicalParcelModel).delete()
         db.query(ConflictModel).delete()
         db.commit()
 
-        harmonized_parcels = []
         created_conflicts = 0
+        total_items = min(len(rev_gdf), 50)
 
-        for idx in range(min(len(rev_gdf), 50)):
+        for idx in range(total_items):
             rev_row = rev_gdf.iloc[idx]
             drone_row = drone_gdf.iloc[idx]
             mun_row = mun_gdf.iloc[idx]
@@ -44,16 +61,18 @@ def execute_one_click_demo(db: Session = Depends(get_db)):
             khasra_no = str(rev_row.get("Khasra_No", f"10{idx}"))
             parcel_id = f"SN-P-{khasra_no}"
 
-            # Compute confidence score
             conf_data = ConfidenceScorer.calculate_harmonization_confidence(
                 geometry_agreement=0.94 if idx % 5 != 0 else 0.68,
                 attribute_agreement=0.90,
-                source_department="survey_department"
+                source_department="survey_department",
             )
 
-            status = "harmonized" if conf_data["final_confidence"] >= 0.90 else "needs_review"
+            status = (
+                "harmonized"
+                if conf_data["final_confidence"] >= 0.90
+                else "needs_review"
+            )
 
-            # Store Canonical Parcel
             parcel = CanonicalParcelModel(
                 parcel_id=parcel_id,
                 geometry=drone_row.geometry.wkt,
@@ -69,12 +88,11 @@ def execute_one_click_demo(db: Session = Depends(get_db)):
                 status=status,
                 provenance={
                     "geometry_source": "Survey Dept Drone Imagery (2026)",
-                    "attribute_source": "Revenue Records (2012)"
-                }
+                    "attribute_source": "Revenue Records (2012)",
+                },
             )
             db.add(parcel)
 
-            # Generate intentional conflict for low-confidence items
             if status == "needs_review":
                 created_conflicts += 1
                 conflict = ConflictModel(
@@ -82,17 +100,24 @@ def execute_one_click_demo(db: Session = Depends(get_db)):
                     conflict_type="BOUNDARY_GEOMETRY_DISCREPANCY",
                     severity="HIGH",
                     status="OPEN",
-                    contending_sources=["Revenue Department", "Municipal Corporation"],
+                    contending_sources=[
+                        "Revenue Department",
+                        "Municipal Corporation",
+                    ],
                     evidence_data={
-                        "revenue_area": round(rev_row.geometry.area * 10000000, 2),
-                        "municipal_area": round(mun_row.geometry.area * 10000000, 2)
+                        "revenue_area": round(
+                            rev_row.geometry.area * 10000000, 2
+                        ),
+                        "municipal_area": round(
+                            mun_row.geometry.area * 10000000, 2
+                        ),
                     },
                     ai_recommendation={
                         "action": "Adopt Drone Survey Spatial Boundary",
                         "reasoning": "Highest positional control and survey accuracy score (0.98).",
-                        "confidence": conf_data["final_confidence"]
+                        "confidence": conf_data["final_confidence"],
                     },
-                    confidence=conf_data["final_confidence"]
+                    confidence=conf_data["final_confidence"],
                 )
                 db.add(conflict)
 
@@ -101,10 +126,12 @@ def execute_one_click_demo(db: Session = Depends(get_db)):
         return {
             "status": "SUCCESS",
             "message": "Shakti Nagar Urban Land Harmonization Completed!",
-            "parcels_processed": 50,
-            "auto_harmonized": 50 - created_conflicts,
-            "flagged_for_review": created_conflicts
+            "parcels_processed": total_items,
+            "auto_harmonized": total_items - created_conflicts,
+            "flagged_for_review": created_conflicts,
         }
+    except HTTPException:
+        raise
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=str(e))

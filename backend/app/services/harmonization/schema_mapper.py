@@ -1,31 +1,22 @@
-import difflib
-from typing import Dict, Any, List
-from app.core.constants import FIELD_ALIASES
+from typing import Dict, List
+import geopandas as gpd
+from backend.app.core.constants import FIELD_ALIASES
+
 
 class SchemaMapper:
-    @staticmethod
-    def map_columns(incoming_columns: List[str]) -> Dict[str, str]:
-        """Maps arbitrary input column headers to GeoLand canonical keys."""
-        mapping = {}
-        for col in incoming_columns:
-            clean_col = str(col).lower().strip()
+    """Standardizes disparate column names across department datasets."""
 
-            matched = False
-            for canonical_key, aliases in FIELD_ALIASES.items():
-                if clean_col in aliases:
-                    mapping[col] = canonical_key
-                    matched = True
+    @staticmethod
+    def normalize_schema(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+        """Renames known aliases to standardized target field names."""
+        gdf_copy = gdf.copy()
+        rename_dict = {}
+
+        for col in gdf_copy.columns:
+            cleaned_col = str(col).strip().lower()
+            for target_field, aliases in FIELD_ALIASES.items():
+                if cleaned_col in aliases:
+                    rename_dict[col] = target_field
                     break
 
-            if not matched:
-                for canonical_key, aliases in FIELD_ALIASES.items():
-                    matches = difflib.get_close_matches(clean_col, aliases, cutoff=0.75)
-                    if matches:
-                        mapping[col] = canonical_key
-                        matched = True
-                        break
-
-            if not matched:
-                mapping[col] = clean_col
-
-        return mapping
+        return gdf_copy.rename(columns=rename_dict)

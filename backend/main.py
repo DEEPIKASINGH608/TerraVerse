@@ -1,14 +1,38 @@
+import os
+import sys
+from contextlib import asynccontextmanager
+from pathlib import Path
+
+SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if SRC_DIR not in sys.path:
+    sys.path.insert(0, SRC_DIR)
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.core.config import settings
-from app.api.v1.api import api_router
-from app.db.session import engine, Base
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
-Base.metadata.create_all(bind=engine)
+from src.api.router_conflicts import router as conflicts_router
+from src.api.router_ingest import router as ingest_router
+from src.api.router_parcels import router as parcels_router
+from src.api.router_pipeline import router as pipeline_router
+
+from src.config import settings
+from src.database import init_db
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan context manager replacing deprecated @app.on_event decorators."""
+    init_db()
+    yield
+
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
-    openapi_url=f"{settings.API_V1_STR}/openapi.json"
+    version="1.0.0",
+    description="Enterprise GeoAI Spatial Harmonization Platform for Urban Land Records",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
@@ -19,12 +43,26 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(ingest_router, prefix=settings.API_V1_STR)
+app.include_router(pipeline_router, prefix=settings.API_V1_STR)
+app.include_router(parcels_router, prefix=settings.API_V1_STR)
+app.include_router(conflicts_router, prefix=settings.API_V1_STR)
+
+web_dir = os.path.join(os.path.dirname(__file__), "..", "web")
+if os.path.exists(web_dir):
+    app.mount("/static", StaticFiles(directory=web_dir), name="static")
+
 
 @app.get("/")
-def root_status():
-    return {
-        "platform": settings.PROJECT_NAME,
-        "status": "OPERATIONAL",
-        "version": "1.0.0-SIH-PROD"
-    }
+def read_root():
+    """Serves the main web dashboard if index.html exists, else returns a status payload."""
+    index_file = os.path.join(web_dir, "index.html")
+    if os.path.exists(index_file):
+        return FileResponse(index_file)
+    return {"message": "TerraVerse Engine API Running"}
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

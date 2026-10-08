@@ -1,19 +1,18 @@
-from sqlalchemy import Column, String, Integer, Float, DateTime, JSON, Text
-from datetime import datetime, timezone
-import uuid
-from app.db.session import Base
+from datetime import datetime
+from sqlalchemy import Column, Integer, String, DateTime, JSON
+
+from backend.app.db.base import Base
+
 
 class DatasetModel(Base):
     __tablename__ = "datasets"
 
-    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
-    name = Column(String, nullable=False)
-    source_department = Column(String, nullable=False)
-    file_format = Column(String, nullable=False)
-    file_path = Column(String, nullable=False)
-    original_crs = Column(String, nullable=True)
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    name = Column(String(255), nullable=False)
+    department = Column(String(100), nullable=False, index=True)
+    format = Column(String(50), nullable=False)  # GeoJSON, Shapefile, GeoTIFF
+    file_path = Column(String(500), nullable=False)
+    crs = Column(String(50), default="EPSG:4326")
     feature_count = Column(Integer, default=0)
-    quality_score = Column(Float, default=0.0)
-    status = Column(String, default="uploaded")  
-    metadata_info = Column(JSON, default={})
-    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    metadata_info = Column(JSON, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)

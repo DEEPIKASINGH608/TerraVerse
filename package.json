@@ -1,0 +1,40 @@
+{
+  "name": "terraverse",
+  "version": "1.0.0",
+  "description": "TerraVerse is an enterprise GeoAI platform designed to ingest messy, multi-CRS, schema-inconsistent urban land records across government departments and conflate them into a single **Canonical Urban Land Layer** with complete spatial provenance and confidence scoring.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEEPIKASINGH608/TerraVerse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DEEPIKASINGH608/TerraVerse/issues"
+  },
+  "homepage": "https://github.com/DEEPIKASINGH608/TerraVerse#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "axios": "^1.20.0",
+    "lucide-react": "^1.52.0",
+    "maplibre-gl": "^6.13.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3"
+  }
+}
