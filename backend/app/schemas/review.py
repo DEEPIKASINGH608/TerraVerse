@@ -17,7 +17,7 @@ class ReviewTaskCreate(ReviewTaskBase):
 
 
 class ReviewTaskAction(BaseModel):
-    action: str  # "APPROVE", "REJECT", "OVERRIDE"
+    action: str
     resolver_id: str
     notes: Optional[str] = None
     overridden_attributes: Optional[Dict[str, Any]] = None

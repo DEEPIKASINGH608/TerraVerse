@@ -10,7 +10,7 @@ class Settings(BaseSettings):
         "TERRAVERSE_SECRET_KEY_SIH_2026_PRODUCTION_MODE_KEY_32"
     )
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7  # 7 Days
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7
 
     POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER", "localhost")
     POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", "5432")

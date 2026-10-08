@@ -11,7 +11,7 @@ class ReviewTaskModel(Base):
     conflict_id = Column(Integer, nullable=False, index=True)
     parcel_id = Column(String(100), nullable=False)
     assigned_to = Column(String(100), nullable=True)
-    status = Column(String(50), default="PENDING")  # PENDING, APPROVED, REJECTED
+    status = Column(String(50), default="PENDING")
     resolution_notes = Column(String, nullable=True)
     overridden_data = Column(JSON, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)

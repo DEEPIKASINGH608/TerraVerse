@@ -1,11 +1,11 @@
-import os
 import sys
-from contextlib import asynccontextmanager
-from pathlib import Path
+import os
 
-SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-if SRC_DIR not in sys.path:
-    sys.path.insert(0, SRC_DIR)
+BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
+if BACKEND_DIR not in sys.path:
+    sys.path.insert(0, BACKEND_DIR)
+
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -19,6 +19,8 @@ from src.api.router_pipeline import router as pipeline_router
 
 from src.config import settings
 from src.database import init_db
+
+
 
 
 @asynccontextmanager
@@ -48,7 +50,7 @@ app.include_router(pipeline_router, prefix=settings.API_V1_STR)
 app.include_router(parcels_router, prefix=settings.API_V1_STR)
 app.include_router(conflicts_router, prefix=settings.API_V1_STR)
 
-web_dir = os.path.join(os.path.dirname(__file__), "..", "web")
+web_dir = os.path.join(BACKEND_DIR, "web")
 if os.path.exists(web_dir):
     app.mount("/static", StaticFiles(directory=web_dir), name="static")
 

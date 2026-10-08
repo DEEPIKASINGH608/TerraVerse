@@ -19,7 +19,6 @@ export const DatasetUploader: React.FC<DatasetUploaderProps> = ({ onUploadSucces
     if (!selectedFile) return;
     setUploading(true);
 
-    // Simulate upload delay
     setTimeout(() => {
       setUploading(false);
       if (onUploadSuccess) onUploadSuccess(selectedFile.name);

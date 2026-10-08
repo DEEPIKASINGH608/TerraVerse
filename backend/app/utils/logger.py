@@ -13,12 +13,10 @@ def setup_logging(level: int = logging.INFO, log_file: Optional[str] = None) -> 
     root_logger = logging.getLogger()
     root_logger.setLevel(level)
 
-    # Console Handler
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setFormatter(formatter)
     root_logger.addHandler(console_handler)
 
-    # File Handler (Optional)
     if log_file:
         file_handler = logging.FileHandler(log_file, encoding="utf-8")
         file_handler.setFormatter(formatter)

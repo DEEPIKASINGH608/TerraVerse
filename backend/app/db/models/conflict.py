@@ -10,8 +10,8 @@ class ConflictModel(Base):
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     parcel_id = Column(String(100), nullable=False, index=True)
     conflict_type = Column(String(100), nullable=False)
-    severity = Column(String(20), default="MEDIUM")  # LOW, MEDIUM, HIGH, CRITICAL
-    status = Column(String(50), default="OPEN", index=True)  # OPEN, IN_REVIEW, RESOLVED
+    severity = Column(String(20), default="MEDIUM")
+    status = Column(String(50), default="OPEN", index=True)
     contending_sources = Column(JSON, nullable=True)
     evidence_data = Column(JSON, nullable=True)
     ai_recommendation = Column(JSON, nullable=True)

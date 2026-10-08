@@ -3,7 +3,6 @@ FROM python:3.11-slim AS builder
 
 WORKDIR /app
 
-# Install system dependencies required for GDAL/GIS packages if needed
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libgdal-dev \
@@ -13,12 +12,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
 
-# Final runtime image
 FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install runtime GIS library dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgdal32 \
     && rm -rf /var/lib/apt/lists/*

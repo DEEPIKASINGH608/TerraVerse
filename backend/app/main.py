@@ -1,11 +1,23 @@
+import os
+import sys
 import logging
 from contextlib import asynccontextmanager
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from backend.app.core.config import settings
 from backend.app.utils.logger import setup_logging
+
+from backend.app.api.router_conflicts import router as conflicts_router
+from backend.app.api.router_ingest import router as ingest_router
+from backend.app.api.router_parcels import router as parcels_router
+from backend.app.api.router_pipeline import router as pipeline_router
 
 setup_logging()
 logger = logging.getLogger("terraverse")
@@ -40,6 +52,11 @@ if settings.BACKEND_CORS_ORIGINS:
         allow_headers=["*"],
     )
 
+app.include_router(ingest_router, prefix=settings.API_V1_STR)
+app.include_router(pipeline_router, prefix=settings.API_V1_STR)
+app.include_router(parcels_router, prefix=settings.API_V1_STR)
+app.include_router(conflicts_router, prefix=settings.API_V1_STR)
+
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
@@ -62,8 +79,6 @@ async def health_check():
         "version": settings.VERSION,
         "environment": settings.ENV,
     }
-
-
 
 
 if __name__ == "__main__":

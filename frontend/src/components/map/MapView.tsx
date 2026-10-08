@@ -25,7 +25,7 @@ export const MapView: React.FC<MapViewProps> = ({ onParcelSelect }) => {
     instance.addControl(new maplibregl.NavigationControl(), 'top-right');
 
     instance.on('load', () => {
-      const geojson: geojson.FeatureCollection = {
+      const geojson: GeoJSON.FeatureCollection= {
         type: 'FeatureCollection',
         features: [
           {
