@@ -1,9 +1,9 @@
-from .file_utils import *
-from .geometry_utils import *
-from .identifiers import *
-from .logger import logger
-from .validation import *
+from .utils.file_utils import *
+from .utils.geometry_utils import *
+from .utils.identifiers import *
+from .utils.logger import setup_logging
+from .utils.validation import *
 
 __all__ = [
-    "logger",
+    "setup_logging",
 ]

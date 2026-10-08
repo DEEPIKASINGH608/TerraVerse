@@ -1,16 +1,26 @@
 import os
 from pathlib import Path
+from typing import List
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "TerraVerse AI"
+    VERSION: str = "0.1.0"
+    ENV: str = "development"
+    DEBUG: bool = True
     API_V1_STR: str = "/api/v1"
+
     SECRET_KEY: str = (
         "TERRAVERSE_SECRET_KEY_SIH_2026_PRODUCTION_MODE_KEY_32"
     )
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7
+
+    BACKEND_CORS_ORIGINS: List[str] = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ]
 
     POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER", "localhost")
     POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", "5432")

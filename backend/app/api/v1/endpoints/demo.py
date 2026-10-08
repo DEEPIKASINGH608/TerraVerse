@@ -1,16 +1,16 @@
 from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy.orm import Session
 import geopandas as gpd
+from sqlalchemy.orm import Session
 
-from backend.app.db.session import get_db
-from backend.app.db.models.parcel import CanonicalParcelModel
 from backend.app.db.models.conflict import ConflictModel
+from backend.app.db.models.parcel import CanonicalParcelModel
+from backend.app.db.session import get_db
 from backend.app.services.confidence.scorer import ConfidenceScorer
 
 router = APIRouter()
 
-BASE_DIR = Path(__file__).resolve().parents[4]
+BASE_DIR = Path(__file__).resolve().parents[3]
 DEMO_DATA_DIR = BASE_DIR / "data" / "demo"
 
 
